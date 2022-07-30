@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,13 +15,13 @@
     
     <title>N A L A - Community</title>
 
+  </head>
 
-<body class="container"> 
+  <body>
+    
   
  
-</head>
-
-    <!-- HEADER -->
+  <div class="container-fluid header">
     <header class="nav-community">
       <div class="container">
         <img class="logo" width="300" height="300" src="../logo/logo-nala.png" alt="logo-nala-beachbar" class="img-fluid">
@@ -39,10 +39,10 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="../">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Community</a>
+                    <a class="nav-link" href="../pages/community.html">Community</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="../pages/reservas.html">Reservas</a>
@@ -58,99 +58,131 @@
                 </nav>
 
     </header>  
-<!-- --------------TITULO PRINCIPAL DE SECCIONES---------- -->
+  </div>   
+      
+  <!-------------- BOTONERA BARRA DE NAVEGACION -->
 
-<div class=" row inicio-community">
-    <H1>Estás en buena compañía</H1>
-    <br>
-
-    <p> Compartimos los testimonios de quienes nos eligen </p>
-
-<!-- -------SECCION UDS SON LO IMPORTANTE---------- -->
-    <section class="col col-sm-6 col-lg-6 seccion-importante">
-        <h2>Ustedes son lo más importante </h2>
-<br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam, delectus voluptas, soluta laborum autem accusamus quasi fugiat maiores quam vitae dolores facere natus molestiae, facilis dolore dolor sunt alias.
-        Placeat, ad obcaecati. Mollitia alias ipsam illum aut itaque voluptas, voluptates sequi numquam ullam nihil eligendi quod facere blanditiis molestias assumenda doloribus, repudiandae perferendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus reiciendis quidem, porro perspiciatis nam quia quae ipsa autem fugiat asperiores ut sit at officia fugit facilis deleniti eius culpa vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis consequuntur ullam quibusdam ab tenetur officiis atque dolores amet, unde doloremque natus provident ratione illo, doloribus asperiores, cupiditate voluptatibus hic?</p>
   
-        <img src="../fotos/hamaca.jpeg" alt="foto-hamaca-en-playa" height="200px" width="300px">
-        <br>
-        <br>
 
-        <img src="../fotos/welcome_open.jpeg" alt="cartel-bienvenidos" height="200px" width="300px">
-
-    </section >
-<br>
-<br>    
-
-<!-----------ASIDE--------------- -->
-<aside class="col col-sm-3 col-lg-3 aside"> 
+  <div class="conteiner-fluid botonera"> 
+                <a class="btn btn-light " href="../pages/loging.html">Log in</a>
     
-  <H2>Te mostramos nuestro Newsletter</H2>
-<br>
-<br>            
-  <img class="imagen-jeep" src="../fotos/jeep_palmeras.jpeg" alt="imagen-jeep-palmeras-newsletter" height="400px" width="300px">
-<br>
-<br>
-  <p>---- Suscribite para recibir descuentos especiales ----</p>
-<br>
-<a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
-<br>
   
-</aside>
+                <a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
+  
+    
+            <div class="container">
+              <form class="d-flex text-center" role="search">
+                <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+
+                <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
+              </form>
+
+             </div>
+  </div> 
+
+  <!-- --------------TITULO PRINCIPAL DE SECCIONES---------- -->
+
+<div class="container-fluid contenido">
+
+          <div class=" row inicio-community">
+              <H1>Estás en buena compañía</H1>
+              <br>
+
+              <p> Compartimos los testimonios de quienes nos eligen </p>
+
+          <!-- -------SECCION UDS SON LO IMPORTANTE---------- -->
+              <section class="col col-sm-6 col-lg-6 seccion-importante">
+                  <h2>Ustedes son lo más importante </h2>
+          <br>
+                  <p>¡Gracias por tu visita y los esperamos nuevamente para compartir nuevas y mejores experiencias juntos!. 
+                  Este es un espacio pensado para vos. Un espacio para que compartas al mundo tu experiencia N A L A. 
+                  Fotos, anecdotas, amigos... ¿Que más?.
+                  Dejanos tu comentario. Suscribite a nuestro Newsletter y disfrutá de todo el contenido y beneficios que te ofrecemos a diario.
+                  ¡Te esperamos!
+                  </p>
+            
+                  <img src="../fotos/hamaca.jpeg" alt="foto-hamaca-en-playa" height="200px" width="300px">
+                  <br>
+                  <br>
+
+                  <img src="../fotos/welcome_open.jpeg" alt="cartel-bienvenidos" height="200px" width="300px">
+
+              </section >
+          <br>
+          <br>    
+
+          <!-----------ASIDE--------------- -->
+          <aside class="col col-sm-3 col-lg-3 aside"> 
+              
+            <H2>Te mostramos nuestro Newsletter</H2>
+          <br>
+          <br>            
+            <img class="imagen-jeep" src="../fotos/jeep_palmeras.jpeg" alt="imagen-jeep-palmeras-newsletter" height="400px" width="300px">
+          <br>
+          <br>
+            <p>---- Suscribite para recibir descuentos especiales ----</p>
+          <br>
+          <a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
+          <br>
+            
+          </aside>
 
 
    <!----------CONTANOS TU EXPERIENCIA---------------- -->
       
-    <section class="seccion-experiencia">
-        <h2> Contanos tu experiencia en N A L A</h2>
-<br>
-<img src="../fotos/mesas.jpeg" alt="mesas-bar-playa" height="100px" width="100px" class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
-<img src="../fotos/coco.jpeg" alt="bebida-en-coco" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
-<img src="../fotos/sunset.jpeg" alt="foto-atardecer" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
-<img src="../fotos/chica_coco.jpeg" alt="chica-bebiendo-coco" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
+              <section class="seccion-experiencia">
+                  <h2> Contanos tu experiencia en N A L A</h2>
+          <br>
+          <img src="../fotos/mesas.jpeg" alt="mesas-bar-playa" height="100px" width="100px" class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
+          <img src="../fotos/coco.jpeg" alt="bebida-en-coco" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
+          <img src="../fotos/sunset.jpeg" alt="foto-atardecer" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
+          <img src="../fotos/chica_coco.jpeg" alt="chica-bebiendo-coco" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
 
 
-<br>
-<br>
-<a class="btn btn-light " href="../pages/contacto.html">Contactanos</a>
-<br>
-    </section>
-    </div>
-
-</body>
+          <br>
+          <br>
+          <a class="btn btn-light " href="../pages/contacto.html">Contactanos</a>
+          <br>
+              </section>
+</div>
 
 
 
 <!-----------FOOTER---------- -->
-<footer class="row footer justify-content-center">
-    <ul>
-        <li><a href="../pages/contacto.html">Contactenos</a> </li>
-        <li><a href="../pages/reservas.html">Reservas</a></li>
-        <li><a href="../index.html">Home</a></li>
-    </ul>
 
-    <div class="row imagenesfooter justify-content-space-between">
-      
+<div class="container-fluid footer">
+  <footer class="row footer justify-content-center">
+      <ul>
+          <li><a href="../pages/contacto.html">Contactenos</a> </li>
+          <li><a href="../pages/reservas.html">Reservas</a></li>
+          <li><a href="./index.html">Home</a></li>
+      </ul>
 
-       <a class="col col-sm-3" href="https://www.instagram.com/">
-       <img class="instagram" width="30" height="30"src="../icon/instagram.png" alt="instagram-logo"></a> 
-
-       <a class="col col-sm-3" href="https://www.twitter.com/">
-       <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
+        <div class="row imagenesfooter justify-content-space-between">
         
-       <a class="col col-sm-3" href="https://www.facebook.com/">
-       <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
 
-       <a class="col col-sm-3" href="https://www.facebook.com/">
-       <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
+          <a class="col-8 col-sm-3" href="https://www.instagram.com/">
+            <img class="instagram" width="30" height="30"src="../icon/instagram.png" alt="instagram-logo"></a> 
 
-    </div>
-    
-    <p>© nathynatita, Inc. 2022</p>
+          <a class="col-8 col-sm-3" href="https://www.twitter.com/">
+            <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
+          
+          <a class="col-8 col-sm-3" href="https://www.facebook.com/">
+            <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
 
-</footer>
+          <a class="col-8 col-sm-3" href="https://www.facebook.com/">
+            <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
 
-<script src="../js/bootstrap.js"></script>
+        </div>
+      
+      <p>© nathynatita, Inc. 2022</p>
+
+  </footer>
+</div> 
+
+
+<script src="./js/bootstrap.js"></script>
+</body>
 
 </html>

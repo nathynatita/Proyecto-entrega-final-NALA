@@ -13,54 +13,71 @@
 
     <title>N A L A - Contacto</title>
 </head>
-    <header>
-    <img class="logo" width="300" height="300" src="../logo/logo-nala.png" alt="logo-nala-beachbar">
-    
-<!-- BARRA DE NAVEGACION -->
-    <nav>
 
-        <ul> 
-            
-         <li><a href="../index.html">Inicio</a> </li>
-         <li><a href="../menu/carta_menu.pdf" target="_blank"> Menú</a> </li>
-         <li><a href="./community.html">Community</a> </li>
-         <li><a href="./reservas.html">Reservas</a> </li>
-         <li><a href="./contacto.html">Contactenos</a> </li>
-        
-        
-        </ul>
-        
-
-    </nav>  
-
-<br>
-<br>
-
-<!-- BOTONERA BARRA DE NAVEGACION -->
-
-<div class="barra-inicio">
-
-    <input type="text" placeholder="Búsqueda" id="barra-de-busqueda"> 
-    <label for="barra-de-busqueda"></label>
-
-    <a href="./loging.html"><button class="boton" > Log in</button></a>
-
-    <a href="./registro.html"><button class="boton--registro"> Registro </button></a>
-
-</div>
-</header>
-
-<main>  
 <body>
+
+
+  <div class="container-fluid header">
+    <div class="col text-center col-xs-2 col-lg-12">
+      <img class="logo" width="300" height="300" src="../logo/logo-nala.png" alt="logo-nala-beachbar" class="img-fluid">
+    </div>
+      
+<!----------------NAVEGACION--------------- -->
+      <nav class="navbar navbar-expand-md">
+        <div class="rowcontainer-fluid" >
+            <a class="navbar-brand" href="#"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/community.html">Community</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/reservas.html">Reservas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contactanos</a>
+                </li>
+
+              </ul>
+              <br>
+                  </div>
+                </div>
+              </nav>
+
+
+</div>   
     
-    <br>
+<!-------------- BOTONERA BARRA DE NAVEGACION -->
+<div class="conteiner-fluid botonera"> 
+              <a class="btn btn-light" href="../pages/loging.html">Log in</a>
+  
+
+              <a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
+
+  
+          <div class="container">
+            <form class="d-flex text-center" role="search">
+              <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+
+              <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
+            </form>
+
+           </div>
+</div> 
+
+
+  <div class="container-fluid contenido">
+    
+    
     <H1 class="h1_contacto"> Contacto</H1> 
-
-    <br>
-
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat neque mollitia dicta id corporis maiores exercitationem animi illo aliquam amet obcaecati iure, voluptas libero consectetur iste odit sint! Quas, voluptates?</p>
-    
-
     <hr>
 
 
@@ -91,33 +108,42 @@
     </div>
         
     </body>
-</main>
+</div>
 
-<footer>
-    <ul>
-        <li><a href="../pages/contacto.html">Contactenos</a> </li>
-        <li><a href="../pages/reservas.html">Reservas</a></li>
-        <li><a href="../index.html">Home</a></li>
-    </ul>
 
-    <div class="imagenesfooter">
+<!-------------FOOTER------------- -->
+<div class="container-fluid footer">
+    <footer class="row footer justify-content-center">
+        <ul>
+            <li><a href="../pages/contacto.html">Contactenos</a> </li>
+            <li><a href="../pages/reservas.html">Reservas</a></li>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
 
-       <a href="https://www.instagram.com/">
-       <img width="30" height="30"src="../icon/instagram.png" alt="instagram-logo"></a> 
+          <div class="row imagenesfooter justify-content-space-between">
+          
+
+            <a class="col-8 col-sm-3" href="https://www.instagram.com/">
+              <img class="instagram" width="30" height="30"src="../icon/instagram.png" alt="instagram-logo"></a> 
+
+            <a class="col-8 col-sm-3" href="https://www.twitter.com/">
+              <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
+            
+            <a class="col-8 col-sm-3" href="https://www.facebook.com/">
+              <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
+
+            <a class="col-8 col-sm-3" href="https://www.facebook.com/">
+              <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
+
+          </div>
         
-       <a href="https://www.twitter.com/">
-       <img width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
-        
-       <a href="https://www.facebook.com/">
-       <img width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
+        <p>© nathynatita, Inc. 2022</p>
 
-       <a href="https://www.facebook.com/">
-       <img width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
+    </footer>
+</div> 
 
-    </div>
-    
-    <p>© nathynatita, Inc. 2022</p>
 
-</footer>
+<script src="./js/bootstrap.js"></script>
+</body>
 
-    </html> 
+</html>
