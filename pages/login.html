@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&family=Lexend+Zetta:wght@100;200;300;500;700&display=swap" rel="stylesheet">
 
 
-    <title> N A L A - Reservas</title>
-  </head>
 
-  <body>
-    
-    <div class="container-fluid header">
-      <div class="col text-center col-xs-2 col-lg-12">
+    <title>N A L A - Loging</title>
+</head>
+
+
+
+<   <div class="container-fluid header">
+    <header class="nav-community">
+      <div class="container">
         <img class="logo" width="300" height="300" src="../logo/logo-nala.png" alt="logo-nala-beachbar" class="img-fluid">
       </div>
         
@@ -51,12 +53,15 @@
                   </div>
                 </nav>
 
-
+    </header>  
   </div>   
       
-<!-------------- BOTONERA BARRA DE NAVEGACION -->
+  <!-------------- BOTONERA BARRA DE NAVEGACION -->
+
+  
+
   <div class="conteiner-fluid botonera"> 
-                <a class="btn btn-light" href="../pages/loging.html">Log in</a>
+                <a class="btn btn-light " href="../pages/loging.html">Log in</a>
     
   
                 <a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
@@ -71,43 +76,34 @@
 
              </div>
   </div> 
-  
+
+    <div class="container-fluid contenido">
+
+            <h2 class="titulo-loging"> ¡Que bueno verte de nuevo!</h2>
+            <br>
+
+            <p> Te estabamos esperando. Ingresá y enterate de nuestras noveades</p>
+            <hr>
+            <div class="caja--registro">
+
+            <div class="ingresar-form">
+                <form>
+
+                    <label for="campo-email"></label>
+                        <input type="email" id="campo-email" placeholder="Mail" aria-required="true" >
+
+                    <label for="campo-password"></label>
+                        <input type="password" id="campo-password" placeholder="Ingrese contraseña" aria-required="true" >
+
+                        <input class= "boton_enviar_registro" type="submit" value="Ingresar">
+
+                </form>
+
+            </div>
+    </div>
 
 
-
- <!-- FORM RESERVA -->
-
-  <div class="container-fluid contenido">
-                <div class="caja">
-
-                    <h2>¡Reservá una mesa y vení a conocernos!</h2>
-                      <form>
-                        <label for="campo-nombre"></label>
-                        <input type="text" id="campo-nombre" placeholder="Nombre"> 
-            
-                        <label for="campo-apellido"></label>
-                        <input type="text" id="campo-apellido" placeholder="Apellido">
-
-                        <label for="campo-email"></label>
-                        <input type="email" id="campo-email" placeholder="ejemplo@ejemplo.com">
-
-                        <label for="campo-tel"></label>
-                        <input type="tel" id="campo-tel" placeholder="Teléfono">
-
-                        <label class="horario-reserva" for="horario-reserva"> Horario de reserva</label>
-
-                        <input type="time">
-
-                        <textarea name="text-area" id="Aclaraciones" cols="40" rows="20" placeholder="Aclaraciones"></textarea>
-
-                        <input class= "boton_enviar" type="submit" value="Enviar">
-                      </form>
-
-                </div>
-  </div>
-
-
-<!------------------ FOOTER --------------------->
+<!-------------------FOOTER------------------>
 <div class="container-fluid footer">
     <footer class="row footer justify-content-center">
         <ul>

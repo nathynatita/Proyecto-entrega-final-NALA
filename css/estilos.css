@@ -1,1 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-family: "Exo", sans-serif;
+}
+
+.colorverdepetroleo {
+  color: #0da2b8;
+}
+
+.colorgris {
+  color: #d5d6db;
+}
+
+.coloroliva {
+  color: #636816;
+}
+
+.colorcoral {
+  color: #de9a5b;
+}
+
+.colormarron {
+  color: #795630;
+}
+
+.header {
+  font-family: "Exo", sans-serif;
+  background-image: url(../fotos/puerta.jpeg);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-size: cover;
+  width: 100%;
+  top: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
