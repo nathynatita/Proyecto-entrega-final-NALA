@@ -28,8 +28,16 @@ html {
   color: #795630;
 }
 
+.btn-light {
+  text-decoration: none;
+}
+.btn-light .btn-outline-success {
+  text-decoration: none;
+}
+
 .header {
-  font-family: "Exo", sans-serif;
+  font-family: "Lexend Zetta", sans-serif;
+  font-weight: 800;
   background-image: url(../fotos/puerta.jpeg);
   display: flex;
   flex-direction: column;
@@ -37,7 +45,26 @@ html {
   background-size: cover;
   width: 100%;
   top: 0px;
-  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+
+.botonera a {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contenido {
+  font-family: "Lexend Zetta", sans-serif;
+  font-weight: 300;
+  margin-top: 100px;
+}
+.contenido .contenedor-secciones1 #corte-index {
+  text-align: center;
+  align-items: center;
+}
+
+.img {
   align-items: center;
 }
 
