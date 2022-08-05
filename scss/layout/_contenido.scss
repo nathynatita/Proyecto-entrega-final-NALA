@@ -2,14 +2,41 @@
     font-family: 'Lexend Zetta', sans-serif;
     font-weight: 300;   
     margin-top: 100px;
-    .contenedor-secciones1{
-        #corte-index{
-                text-align: center;
-                align-items: center;
-        
-            
-
-                  
-        }
-     }
+    .video{
+        width:100%;
+    }
+  
 }
+
+
+
+.contenedor-secciones1{
+    text-align: justify;
+    align-items: flex-start;
+     
+        section.nosotros{
+        padding: 60px;   
+    
+    }           
+                 
+}    
+
+section.menu{
+    padding: 60px; 
+
+    }
+
+section.community{
+    padding: 60px;  
+    }
+
+section.reservas{
+    padding: 60px; 
+}
+
+.rounded{
+    size: 500px 800px;
+}
+                     
+
+   
