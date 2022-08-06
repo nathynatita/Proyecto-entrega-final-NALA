@@ -139,5 +139,17 @@ section.reservas {
 .img {
   align-items: center;
 }
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+
+}
 
 /*# sourceMappingURL=estilos.css.map */
