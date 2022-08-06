@@ -35,6 +35,11 @@ html {
   text-decoration: none;
 }
 
+footer ul li a:hover {
+  transform: scale(1.1);
+  color: #7f8e6d;
+}
+
 .header {
   font-family: "Lexend Zetta", sans-serif;
   font-weight: 800;
@@ -84,12 +89,41 @@ section.reservas {
   padding: 60px;
 }
 
-.rounded {
-  size: 500px 800px;
+.footer {
+  width: 100%;
+  background: linear-gradient(rgba(152, 153, 152, 0.7019607843), rgba(237, 237, 237, 0.77)) 100%;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: baseline;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: #636816;
+}
+.footer ul li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Lexend Zetta", sans-serif;
+  font-weight: 700;
+  justify-content: space-evenly;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #636816;
+  border: #636816;
 }
 
-.footer {
-  text-decoration: none;
+.footer p {
+  display: flex;
+  text-align: justify;
+  color: #ffffff;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
 }
 
 .img {

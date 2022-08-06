@@ -1,3 +1,46 @@
-.footer{
-    text-decoration: none;
+.footer{       
+        width: 100%;
+        background: linear-gradient(#989998b3, rgba(237, 237, 237, 0.77)) 100%;
+        
+        ul{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            align-items: baseline;
+            justify-content: space-evenly;
+            text-decoration: none;
+            color: #636816;   
+                li{
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    font-family: 'Lexend Zetta', sans-serif;
+                    font-weight: 700;
+                    justify-content: space-evenly;  
+                    
+                     a{
+                            text-decoration: none;
+                            color: #636816;
+                            border: #636816;
+                            
+                         
+                    }
+            }
+        }
+           
 }
+
+
+.footer{
+    p{
+            display: flex;
+            text-align: justify;
+            color: #ffffff;
+            align-content: center;
+            justify-content: center;
+            width: 100%; 
+            padding: 50px;
+ 
+    }
+}
+
