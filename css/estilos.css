@@ -54,15 +54,6 @@ footer ul li a:hover {
   align-items: center;
 }
 
-.botonera .login {
-  align-items: center;
-}
-.botonera .login a {
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 .contenido {
   font-family: "Lexend Zetta", sans-serif;
   font-weight: 300;
@@ -117,7 +108,7 @@ section.reservas {
 }
 
 .pie-pagina .grupo-1 .box figure img {
-  width: 300px;
+  width: 250px;
 }
 
 .pie-pagina .grupo-1 .box ul li a {
@@ -134,22 +125,11 @@ section.reservas {
 .pie-pagina .grupo-1 .box h3 {
   color: #678e7b;
   font-family: "Exo";
+  margin-top: 50px;
 }
 
 .img {
   align-items: center;
-}
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline-block;
-}
-
-a {
-  text-decoration: none;
-
 }
 
 /*# sourceMappingURL=estilos.css.map */
