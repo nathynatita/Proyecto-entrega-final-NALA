@@ -78,36 +78,41 @@
 
 <hr>
 
-        <div class="caja--registro">
+        <div class="container">
 
             <h2> Registrate</h2>
             <br>
         
             Recibí noticias y descuentos especiales
         
-            <form>
- 
-                <label for="campo-nombre"></label>
-                <input type="text" id="campo-nombre" placeholder="Nombre" required> 
-    
-                <label for="campo-apellido"></label>
-                <input type="text" id="campo-apellido" placeholder="Apellido" required>
-
-                <label for="campo-email"></label>
-                <input type="email" id="campo-email" placeholder="Mail" required>
-
-                <label for="campo-password"></label>
+            <form class="row g-3 mt-5">
+              <div class="col-6">
+                <label for="campo-nombre"> Nombre</label>
+                <input type="text" id="campo-nombre" placeholder="Tu nombre" required> 
+              </div>  
+              <div class="col-6">
+                <label for="campo-apellido"> Apellido</label>
+                <input type="text" id="campo-apellido" placeholder="Tu apellido" required>
+              </div>
+              <div class="col-6">
+                <label for="campo-email"> Email</label>
+                <input type="email" id="campo-email" placeholder="Escribí tu email" required>
+              </div>
+              <div class="col-6">
+                <label for="campo-password">Contraseña</label>
                 <input type="password" id="campo-password" placeholder="Crea una contraseña" required>
-
-                <label for="campo-tel"></label>
-                <input type="tel" id="campo-tel" placeholder="Teléfono">
-
-
+              </div>
+              <div class="col-6">
+                <label for="campo-tel">Teléfono</label>
+                <input type="tel" id="campo-tel" placeholder="Dejanos tu teléfono">
+              </div>
+              <div class="col-12">
                 <label for="newsletter" class="newsletter"> Deseo suscribirme al newsletter de N A L A</label>
                 <input type="checkbox" id="checkbox">
-
+              </div>
+            
                 <input class= "boton_enviar_registro" type="submit" value="Enviar">
-                
+              
                 
 
                 </form>
