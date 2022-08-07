@@ -21,7 +21,7 @@
         
 <!----------------NAVEGACION--------------- -->
         <nav class="navbar navbar-expand-md">
-          <div class="rowcontainer-fluid" >
+          <div class="container-fluid" >
               <a class="navbar-brand" href="#"></a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,6 @@
                   </li>
 
                 </ul>
-                <br>
                     </div>
                   </div>
                 </nav>
@@ -52,105 +51,115 @@
     </header>  
   </div>   
 
-  <!-------------- BOTONERA BARRA DE NAVEGACION -->
+  <!-------------- BOTONERA BARRA DE NAVEGACION ------------>
   <div class="conteiner-fluid botonera"> 
-            <a class="btn btn-light" href="../pages/login.html">Log in</a>
+    <div class="row justify-content-center mb-4">
+      <a class="btn btn-light col-md-2 g-3 me-2" href="../pages/login.html">Log in</a>
 
 
-            <a class="btn btn-dark" href="#"> Registro</a>
+          <a class="btn btn-dark col-md-2 g-3" href="../pages/registro.html"> Registro</a>
 
-        <div class="container-fluid search">
-          <form class="d-flex text-center" role="search">
-            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+    </div>
+        <div class="container">
+        <form class="d-flex text-center" role="search">
+          <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
 
-            <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
-          </form>
+          <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
+        </form>
 
         </div>
 </div> 
-
+<hr>
+<!-------------------FORM REGISTRO --------------------->
 
 <div class="container-fluid contenido">
-        <H1 class="h1_contacto"> Registro</H1> 
-        <br>
+        <h1> Registro</h1> 
 
-        <p></p>
+  <hr>
 
-<hr>
+  <div class="container">
 
-        <div class="container">
-
-            <h2> Registrate</h2>
-            <br>
-        
-            Recibí noticias y descuentos especiales
-        
-            <form class="row g-3 mt-5">
-              <div class="col-6">
-                <label for="campo-nombre"> Nombre</label>
-                <input type="text" id="campo-nombre" placeholder="Tu nombre" required> 
-              </div>  
-              <div class="col-6">
-                <label for="campo-apellido"> Apellido</label>
-                <input type="text" id="campo-apellido" placeholder="Tu apellido" required>
-              </div>
-              <div class="col-6">
-                <label for="campo-email"> Email</label>
-                <input type="email" id="campo-email" placeholder="Escribí tu email" required>
-              </div>
-              <div class="col-6">
-                <label for="campo-password">Contraseña</label>
-                <input type="password" id="campo-password" placeholder="Crea una contraseña" required>
-              </div>
-              <div class="col-6">
-                <label for="campo-tel">Teléfono</label>
-                <input type="tel" id="campo-tel" placeholder="Dejanos tu teléfono">
-              </div>
-              <div class="col-12">
-                <label for="newsletter" class="newsletter"> Deseo suscribirme al newsletter de N A L A</label>
-                <input type="checkbox" id="checkbox">
-              </div>
-            
-                <input class= "boton_enviar_registro" type="submit" value="Enviar">
-              
-                
-
-                </form>
-
-        </div>
-                
-  </div>
-
-  <div class="container-fluid footer">
-    <footer class="row footer justify-content-center">
-        <ul>
-            <li><a href="./contacto.html">Contactenos</a> </li>
-            <li><a href="./reservas.html">Reservas</a></li>
-            <li><a href="../index.html">Home</a></li>
-        </ul>
-
-          <div class="row imagenesfooter justify-content-space-between">
+              <h2> Registrate</h2>        
+<p> Recibí noticias y descuentos especiales </p> 
           
+              <form class="row g-5 mt-5 ">
+                <div class="col-6">
+                  <label for="campo-nombre"> Nombre</label>
+                  <input class="form-control" type="text" id="campo-nombre" placeholder="Tu nombre" required> 
+                </div>  
+                <div class="col-6">
+                  <label for="campo-apellido"> Apellido</label>
+                  <input class="form-control" type="text" id="campo-apellido" placeholder="Tu apellido" required>
+                </div>
+                <div class="col-6">
+                  <label for="campo-email"> Email</label>
+                  <input class="form-control" type="email" id="campo-email" placeholder="Tu email" required>
+                </div>
+                <div class="col-6">
+                  <label for="campo-password">Contraseña</label>
+                  <input class="form-control" type="password" id="campo-password" placeholder="Creá una contraseña" required>
+                </div>
+                <div class="col-12">
+                  <label for="campo-tel">Teléfono</label>
+                  <input class="form-control" type="tel" id="campo-tel" placeholder="Tu teléfono">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                      <label for="newsletter" class="newsletter"> Deseo suscribirme al newsletter de N A L A</label>
+                      <input type="checkbox" id="checkbox">
+                </div>
+                </div>
+                <div class="col-12">
+                  <input class= "btn btn-outline-success" type="submit" value="Enviar">
+                </div>
 
-            <a class="col-8 col-sm-3" href="https://www.instagram.com/">
-              <img class="instagram" width="30" height="30"src="../icon/instagram.png" alt="instagram-logo"></a> 
+                  </form>
 
-            <a class="col-8 col-sm-3" href="https://www.twitter.com/">
-              <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
-            
-            <a class="col-8 col-sm-3" href="https://www.facebook.com/">
-              <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
-
-            <a class="col-8 col-sm-3" href="https://www.facebook.com/">
-              <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
-
+  </div>              
+</div>
+<!-------------------FOOTER ----------------------->
+  <div class="container-fluid footer mt-5">
+    <footer class="container-fluid pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                <a href="#">
+                  <img src="../logo/logo-nala.png" alt="logo de nala beachbar">
+                </a>
+              </figure>
+  
           </div>
-        
-        <p>© nathynatita, Inc. 2022</p>
-
+          <div class="box">
+            <ul>
+              <li><a href="./contacto.html">Contactenos</a> </li>
+              <li><a href="./reservas.html">Reservas</a></li>
+              <li><a href="../index.html">Home</a></li>
+          </ul>
+          </div>
+  
+          <div class="box">
+           <h3> Seguinos </h3> 
+            <div class="red-social">
+              <a class="fa fa-instagram" href="https://www.instagram.com/">
+                <img class="instagram" width="30" height="30s"src="../icon/instagram.png" alt="instagram-logo"></a> 
+  
+              <a class="fa fa-twitter" href="https://www.twitter.com/">
+                <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
+              
+              <a class="fa fa-facebook" href="https://www.facebook.com/">
+                <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
+  
+              <a class="fa fa-youtube" href="https://www.youtube.com/">
+                <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
+            </div>
+          </div>
+        </div>
+      
+      <div class="grupo-2">
+          <small> &copy; 2022 <b> N A L A - by LUMUS </b> - Todos los derechos reservados</small>
+      </div>
     </footer>
-</div> 
-
+  </div> 
 
 <script src="../js/bootstrap.js"></script>
 </body>

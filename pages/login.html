@@ -22,7 +22,7 @@
         
 <!----------------NAVEGACION--------------- -->
         <nav class="navbar navbar-expand-md">
-          <div class="rowcontainer-fluid" >
+          <div class="container-fluid" >
               <a class="navbar-brand" href="#"></a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,9 +43,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./contacto.html">Contactanos</a>
                   </li>
-
                 </ul>
-                <br>
                     </div>
                   </div>
                 </nav>
@@ -53,81 +51,115 @@
     </header>  
   </div>   
       
-  <!-------------- BOTONERA BARRA DE NAVEGACION -->
-
-  
+  <!-------------- BOTONERA BARRA DE NAVEGACION --------------->
 
   <div class="conteiner-fluid botonera"> 
-                <a class="btn btn-dark " href="#">Log in</a>
-    
-  
-                <a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
-  
-    
-            <div class="container">
-              <form class="d-flex text-center" role="search">
-                <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+    <div class="row justify-content-center mb-4">
+      <a class="btn btn-dark col-md-2 g-3 me-2" href="../pages/login.html">Log in</a>
 
-                <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
-              </form>
 
-             </div>
-  </div> 
+          <a class="btn btn-outline-success col-md-2 g-3" href="../pages/registro.html"> Registro</a>
 
-    <div class="container-fluid contenido">
-
-            <h2 class="titulo-loging"> ¡Que bueno verte de nuevo!</h2>
-            <br>
-
-            <p> Te estabamos esperando. Ingresá y enterate de nuestras noveades</p>
-            <hr>
-            <div class="caja--registro">
-
-            <div class="ingresar-form">
-                <form>
-
-                    <label for="campo-email"></label>
-                        <input type="email" id="campo-email" placeholder="Mail" aria-required="true" >
-
-                    <label for="campo-password"></label>
-                        <input type="password" id="campo-password" placeholder="Ingrese contraseña" aria-required="true" >
-
-                        <input class= "boton_enviar_registro" type="submit" value="Ingresar">
-                </form>
-            </div>
     </div>
+        <div class="container">
+        <form class="d-flex text-center" role="search">
+          <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+
+          <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
+        </form>
+
+        </div>
+</div> 
+<hr>
+<!----------------------------FORMULARIO----------------->
+<div class="container-fluid contenido">
+  <h1> Ingresá</h1> 
+
+<hr>
+
+<div class="container">
+  <h2> ¡Que bueno verte de nuevo!</h2>
+            
+    <p> Te estabamos esperando. Ingresá y enterate de nuestras novedades</p>
+      <div class="container">
+            <form class="mt-5">
+
+              <div class="row">
+                <label class="col-5 col-form-label" for="campo-email" required> Tu Email</label>
+
+                  <div class="col-7 mb-3">
+                    <input class="form-control" type="email" id="campo-email" required>
+                  </div>
+              </div>
+
+
+              <div class="row">
+                <label class="col-5 col-form-label" for="campo-password">Tu Contraseña</label>
+              
+                <div class="col-7">
+                  <input class="form-control" type="password" id="campo-password" required>
+                </div>
+              </div> 
+              
+            
+              <div class="col-12 mt-5">
+                <input class= "btn btn-outline-success" type="submit" value="Igresar">
+              </div>
+
+              </form>
+             
+        </div>
+</div>
+
+
+
+
+
+
 
 <!------------------ FOOTER --------------->
-    <div class="container-fluid footer">
-      <footer class="row footer justify-content-center">
+<div class="container-fluid footer mt-5">
+  <footer class="container-fluid pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+              <a href="#">
+                <img src="../logo/logo-nala.png" alt="logo de nala beachbar">
+              </a>
+            </figure>
+
+        </div>
+        <div class="box">
           <ul>
-              <li><a href="./contacto.html">Contactenos</a> </li>
-              <li><a href="./reservas.html">Reservas</a></li>
-              <li><a href="../index.html">Home</a></li>
-          </ul>
-  
-            <div class="row imagenesfooter justify-content-space-between">
+            <li><a href="./contacto.html">Contactenos</a> </li>
+            <li><a href="./reservas.html">Reservas</a></li>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+        </div>
+
+        <div class="box">
+         <h3> Seguinos </h3> 
+          <div class="red-social">
+            <a class="fa fa-instagram" href="https://www.instagram.com/">
+              <img class="instagram" width="30" height="30s"src="../icon/instagram.png" alt="instagram-logo"></a> 
+
+            <a class="fa fa-twitter" href="https://www.twitter.com/">
+              <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
             
-  
-              <a class="col-8 col-sm-3" href="https://www.instagram.com/">
-                <img class="instagram" width="30" height="30"src="../icon/instagram.png" alt="instagram-logo"></a> 
-  
-              <a class="col-8 col-sm-3" href="https://www.twitter.com/">
-                <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
-              
-              <a class="col-8 col-sm-3" href="https://www.facebook.com/">
-                <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
-  
-              <a class="col-8 col-sm-3" href="https://www.facebook.com/">
-                <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
-  
-            </div>
-          
-          <p>© nathynatita, Inc. 2022</p>
-  
-      </footer>
-  </div> 
-  
+            <a class="fa fa-facebook" href="https://www.facebook.com/">
+              <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
+
+            <a class="fa fa-youtube" href="https://www.youtube.com/">
+              <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
+          </div>
+        </div>
+      </div>
+    
+    <div class="grupo-2">
+        <small> &copy; 2022 <b> N A L A - by LUMUS </b> - Todos los derechos reservados</small>
+    </div>
+  </footer>
+</div> 
   
   <script src="../js/bootstrap.js"></script>
   </body>

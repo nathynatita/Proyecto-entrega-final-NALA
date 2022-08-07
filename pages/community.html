@@ -22,7 +22,7 @@
 
 <!----------------NAVEGACION--------------- -->
         <nav class="navbar navbar-expand-md">
-          <div class="rowcontainer-fluid" >
+          <div class="container-fluid" >
               <a class="navbar-brand" href="#"></a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,9 +43,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./contacto.html">Contactanos</a>
                   </li>
-
                 </ul>
-                <br>
                     </div>
                   </div>
                 </nav>
@@ -55,35 +53,36 @@
       
   <!-------------- BOTONERA BARRA DE NAVEGACION ----------->
   <div class="conteiner-fluid botonera"> 
-          <a class="btn btn-light" href="../pages/login.html">Log in</a>
+    <div class="row justify-content-center mb-4">
+      <a class="btn btn-light col-md-2 g-3 me-2" href="../pages/login.html">Log in</a>
 
 
-          <a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
+          <a class="btn btn-outline-success col-md-2 g-3" href="../pages/registro.html"> Registro</a>
 
+    </div>
+        <div class="container">
+        <form class="d-flex text-center" role="search">
+          <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
 
-          <div class="container">
-          <form class="d-flex text-center" role="search">
-            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+          <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
+        </form>
 
-            <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
-          </form>
-
-          </div>
-    </div> 
+        </div>
+</div> 
 
     <hr>
 <!-- --------------TITULO PRINCIPAL DE SECCIONES---------------->
 
 <div class="container-fluid contenido">
+  <h1> Estás en buena compañía</h1> 
+  <div class="container">
 
-          <div class=" row inicio-community">
-              <H1>Estás en buena compañía</H1>
-              
-
-              <p> Compartimos los testimonios de quienes nos eligen </p>
+        <p style="font-weight: 800;"> Compartimos los testimonios de quienes nos eligen<p>        
+<hr>
 
 <!-- -------SECCION UDS SON LO IMPORTANTE---------------->
-              <section class="col col-sm-6 col-lg-6 seccion-importante">
+<div class="row">
+      <section class="col col-sm-12 col-md-8 mt-5 g-3">
                   <h2>Ustedes son lo más importante </h2>
          
                   <p>¡Gracias por tu visita y los esperamos nuevamente para compartir nuevas y mejores experiencias juntos!. 
@@ -93,77 +92,88 @@
                   ¡Te esperamos!
                   </p>
             
-                  <img src="../fotos/hamaca.jpeg" alt="foto-hamaca-en-playa" height="200px" width="300px">
-                  <br>
-                  <br>
+                  <img src="../fotos/hamaca.jpeg" alt="foto-hamaca-en-playa">
+                 
 
-                  <img src="../fotos/welcome_open.jpeg" alt="cartel-bienvenidos" height="200px" width="300px">
-
-              </section >
+                  <img src="../fotos/welcome_open.jpeg" alt="cartel-bienvenidos" >
+      </section >
       
-
 <!-----------ASIDE--------------- -->
-          <aside class="col col-sm-3 col-lg-3 aside"> 
+          <aside class="col col-sm-12 col-md-4 mt-5 g-3 aside"> 
               
-            <H2>Te mostramos nuestro Newsletter</H2>
+            <h2>Te mostramos nuestro Newsletter</h2>
           
-            <img class="imagen-jeep" src="../fotos/jeep_palmeras.jpeg" alt="imagen-jeep-palmeras-newsletter" height="400px" width="300px">
+            <img class="imagen-jeep" src="../fotos/jeep_palmeras.jpeg" alt="imagen-jeep-palmeras-newsletter" >
 
             <p>---- Suscribite para recibir descuentos especiales ----</p>
        
-          <a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
-        
-            
+          <a class="btn btn-outline-success" href="./registro.html"> Registro</a>
+  
           </aside>
-
-
 <!----------CONTANOS TU EXPERIENCIA---------------- -->
       
-              <section class="seccion-experiencia">
+      <section class="seccion-experiencia mt-5">
                   <h2> Contanos tu experiencia en N A L A</h2>
    
-          <img src="../fotos/mesas.jpeg" alt="mesas-bar-playa" height="100px" width="100px" class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
-          <img src="../fotos/coco.jpeg" alt="bebida-en-coco" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
-          <img src="../fotos/sunset.jpeg" alt="foto-atardecer" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
-          <img src="../fotos/chica_coco.jpeg" alt="chica-bebiendo-coco" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
+              <img src="../fotos/mesas.jpeg" alt="mesas-bar-playa" height="100px" width="100px" class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
+              <img src="../fotos/coco.jpeg" alt="bebida-en-coco" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
+              <img src="../fotos/sunset.jpeg" alt="foto-atardecer" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
+              <img src="../fotos/chica_coco.jpeg" alt="chica-bebiendo-coco" height="100px" width="100px"class="img-thumbnail img-fluid" style="width: 100px; height: 90px">
 
 
-         
-          <a class="btn btn-light " href="../pages/contacto.html">Contactanos</a>
-         
-              </section>
+        <div>
+          <a class="btn btn-light" href="./contacto.html">Contactanos</a>     
+        </div>  
+      </section>
+        </div>        
+    </div>
   </div>
 
 <!------------------ FOOTER --------------->
 <div class="container-fluid footer">
-  <footer class="row footer justify-content-center">
-      <ul>
-          <li><a href="./contacto.html">Contactenos</a> </li>
-          <li><a href="./reservas.html">Reservas</a></li>
-          <li><a href="../index.html">Home</a></li>
-      </ul>
-
-        <div class="row imagenesfooter justify-content-space-between">
-        
-
-          <a class="col-8 col-sm-3" href="https://www.instagram.com/">
-            <img class="instagram" width="30" height="30"src="../icon/instagram.png" alt="instagram-logo"></a> 
-
-          <a class="col-8 col-sm-3" href="https://www.twitter.com/">
-            <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
-          
-          <a class="col-8 col-sm-3" href="https://www.facebook.com/">
-            <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
-
-          <a class="col-8 col-sm-3" href="https://www.facebook.com/">
-            <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
+  <footer class="container-fluid pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+              <a href="#">
+                <img src="../logo/logo-nala.png" alt="logo de nala beachbar">
+              </a>
+            </figure>
 
         </div>
-      
-      <p>© nathynatita, Inc. 2022</p>
+        <div class="box">
+          <ul>
+            <li><a href="./contacto.html">Contactenos</a> </li>
+            <li><a href="./reservas.html">Reservas</a></li>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+        </div>
 
+        <div class="box">
+         <h3> Seguinos </h3> 
+          <div class="red-social">
+            <a class="fa fa-instagram" href="https://www.instagram.com/">
+              <img class="instagram" width="30" height="30s"src="../icon/instagram.png" alt="instagram-logo"></a> 
+
+            <a class="fa fa-twitter" href="https://www.twitter.com/">
+              <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
+            
+            <a class="fa fa-facebook" href="https://www.facebook.com/">
+              <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
+
+            <a class="fa fa-youtube" href="https://www.youtube.com/">
+              <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
+          </div>
+        </div>
+      </div>
+    
+    <div class="grupo-2">
+        <small> &copy; 2022 <b> N A L A - by LUMUS </b> - Todos los derechos reservados</small>
+    </div>
   </footer>
 </div> 
+
+
 
 
 <script src="../js/bootstrap.js"></script>

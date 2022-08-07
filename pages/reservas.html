@@ -26,7 +26,7 @@
 
   
           <nav class="navbar navbar-expand-md">
-            <div class="rowcontainer-fluid" >
+            <div class="container-fluid" >
                 <a class="navbar-brand" href="#"></a>
   
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,98 +49,126 @@
                     </li>
   
                   </ul>
-                  <br>
                       </div>
                     </div>
             </nav>
-  
-  
+              
     </div>   
       
 <!-------------- BOTONERA BARRA DE NAVEGACION -------------->
-    <div class="conteiner-fluid botonera"> 
-                  <a class="btn btn-light" href="../pages/login.html">Log in</a>
-      
-    
-                  <a class="btn btn-outline-success" href="../pages/registro.html"> Registro</a>
-    
-      
-              <div class="container">
-                <form class="d-flex text-center" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+<div class="conteiner-fluid botonera"> 
+    <div class="row justify-content-center mb-4">
+      <a class="btn btn-light col-md-2 g-3 me-2" href="../pages/login.html">Log in</a>
 
-                  <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
-                </form>
 
-               </div>
-    </div> 
+          <a class="btn btn-outline-success col-md-2 g-3" href="../pages/registro.html"> Registro</a>
+
+    </div>
+        <div class="container">
+        <form class="d-flex text-center" role="search">
+          <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+
+          <button class="btn btn-outline-success col col-sm-3" type="submit"> Buscar</button>
+        </form>
+
+        </div>
+</div> 
 <hr>
 
- 
+ <!----------------- FORM RESERVAS-------------->
+ <div class="container-fluid contenido">
+  <h1> Reservas</h1> 
 
+<hr>
 
- <!-- FORM RESERVA -->
+<div class="container">
 
-  <div class="container-fluid contenido">
-                <div class="caja">
-                    <h2>¡Reservá una mesa y vení a conocernos!</h2>
-                      <form>
-                        <label for="campo-nombre"></label>
-                        <input type="text" id="campo-nombre" placeholder="Nombre"> 
+  <h2>¡Reservá tu mesa y vení a conocernos!</h2>      
+<P> Nos pondremos en contacto con vos a la brevedad, para confirmar la misma</P>
+    
+        <form class="row g-5 mt-5 ">
+          <div class="col-6">
+            <label for="campo-nombre"> Nombre</label>
+            <input class="form-control" type="text" id="campo-nombre" placeholder="Tu nombre" required> 
+          </div>  
+          <div class="col-6">
+            <label for="campo-apellido"> Apellido</label>
+            <input class="form-control" type="text" id="campo-apellido" placeholder="Tu apellido" required>
+          </div>
+          <div class="col-6">
+            <label for="campo-email"> Email</label>
+            <input class="form-control" type="email" id="campo-email" placeholder="Escribí tu email" required>
+          </div>
+          <div class="col-6">
+            <label for="campo-tel">Teléfono</label>
+            <input class="form-control" type="tel" id="campo-tel" placeholder="Dejanos tu teléfono">
+          </div>
+
+          <div class="col-12 g-5">
+            <label class="form-control" for="horario-reserva"> Elegí tu horario de reserva</label>
+            <div class="col-12 mb-3s">
+              <input type="time">
+            </div>
             
-                        <label for="campo-apellido"></label>
-                        <input type="text" id="campo-apellido" placeholder="Apellido">
+          </div>
 
-                        <label for="campo-email"></label>
-                        <input type="email" id="campo-email" placeholder="ejemplo@ejemplo.com">
+          <div class="col-12"> Aclaraciones
+            <textarea class="form-control" name="text-area" id="motivo-consulta" cols="30" rows="10"> </textarea>
+          </div>
+          
+          <div class="col-12">
+            <input class= "btn btn-outline-success" type="submit" value="Enviar">
+          </div>
 
-                        <label for="campo-tel"></label>
-                        <input type="tel" id="campo-tel" placeholder="Teléfono">
+        </form>
 
-                        <label class="horario-reserva" for="horario-reserva"> Horario de reserva</label>
-
-                        <input type="time">
-
-                        <textarea name="text-area" id="Aclaraciones" cols="40" rows="20" placeholder="Aclaraciones"></textarea>
-
-                        <input class= "boton_enviar" type="submit" value="Enviar">
-                      </form>
-
-                </div>
-  </div>
-
+</div>
+          
+</div>
 
 <!------------------ FOOTER --------------------->
 <div class="container-fluid footer">
-    <footer class="row footer justify-content-center">
-        <ul>
+  <footer class="container-fluid pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+              <a href="#">
+                <img src="../logo/logo-nala.png" alt="logo de nala beachbar">
+              </a>
+            </figure>
+
+        </div>
+        <div class="box">
+          <ul>
             <li><a href="./contacto.html">Contactenos</a> </li>
             <li><a href="./reservas.html">Reservas</a></li>
             <li><a href="../index.html">Home</a></li>
         </ul>
+        </div>
 
-          <div class="row imagenesfooter justify-content-space-between">
-          
+        <div class="box">
+         <h3> Seguinos </h3> 
+          <div class="red-social">
+            <a class="fa fa-instagram" href="https://www.instagram.com/">
+              <img class="instagram" width="30" height="30s"src="../icon/instagram.png" alt="instagram-logo"></a> 
 
-            <a class="col-8 col-sm-3" href="https://www.instagram.com/">
-              <img class="instagram" width="30" height="30"src="../icon/instagram.png" alt="instagram-logo"></a> 
-
-            <a class="col-8 col-sm-3" href="https://www.twitter.com/">
+            <a class="fa fa-twitter" href="https://www.twitter.com/">
               <img class="twitter" width="30" height="30" src="../icon/twitter.png" alt="twitter-logo"></a> 
             
-            <a class="col-8 col-sm-3" href="https://www.facebook.com/">
+            <a class="fa fa-facebook" href="https://www.facebook.com/">
               <img class=facebook width="30" height="30" src="../icon/facebook.png" alt="facebook-logo"></a> 
 
-            <a class="col-8 col-sm-3" href="https://www.facebook.com/">
+            <a class="fa fa-youtube" href="https://www.youtube.com/">
               <img class="youtube" width="30" height="30" src="../icon/youtube.png" alt="youtube-logo"></a> 
-
           </div>
-        
-        <p>© nathynatita, Inc. 2022</p>
-
-    </footer>
+        </div>
+      </div>
+    
+    <div class="grupo-2">
+        <small> &copy; 2022 <b> N A L A - by LUMUS </b> - Todos los derechos reservados</small>
+    </div>
+  </footer>
 </div> 
-
 
 <script src="../js/bootstrap.js"></script>
 </body>

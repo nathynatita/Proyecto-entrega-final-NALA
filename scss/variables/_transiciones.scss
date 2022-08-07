@@ -1,12 +1,46 @@
-footer {
+.footer {
         ul {
             li {
                 a:hover{
                 transform: scale(1.1);
                 color: #7f8e6d;
+               
+            
 
                 }
             }        
 
         }
 }        
+
+
+.pie-pagina{
+    .grupo-1{
+        .red-social{
+            
+                img:hover{
+                    opacity: 100%;
+                    transform: scale(1.1);
+                }
+            
+        }
+
+    }
+
+}
+
+.seccion-experiencia{
+    img:hover{
+            transform: scale(1.1);
+        
+        }
+    }
+
+.row{
+    section{
+    img:hover{
+        transform: scale(1.2);
+        }
+    }
+}
+

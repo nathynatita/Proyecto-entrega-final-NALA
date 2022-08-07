@@ -1,6 +1,6 @@
 
 .header{
-        font-family: 'Lexend Zetta', sans-serif;
+            font-family: 'Lexend Zetta', sans-serif;
             font-weight: 800;   
             background-image: url(../fotos/puerta.jpeg);
             display: flex;
@@ -11,5 +11,9 @@
             top: 0px;
             text-decoration: none;
             align-items: center;
+        img{
+                margin-top: 10px;
+                
+        }
   
     }
